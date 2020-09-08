@@ -26,6 +26,8 @@ export const store = data => dispatch => {
     })
 }
 
+
+
 export const plays = store => store.game.plays;
 
 export default gameSlice.reducer;
